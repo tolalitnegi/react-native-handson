@@ -1,7 +1,5 @@
 {
-  "name": "react-native-handson",
   "main": "node_modules/expo/AppEntry.js",
-  "description": "install expo app , add on your device and npm and run npm start , see readme.md for more details",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

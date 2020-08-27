@@ -6,15 +6,15 @@ const CounterStateScreen = () => {
   const [counter, changeCounter ] = useState(0);
 
   return (
-    <View style={{ backgroundColor: "rgb(10,120,20)", padding: 10 }}>
+    <View style={{ padding: 10 }}>
       <Text style={styles.textStyles}>Counter value is : {counter}</Text>
 
       <Button style={styles.textStyles} title="Increment" onPress={() => {
-        changeCounter(counter +1);
+        changeCounter(counter +5);
       }} />
 
       <Button style={styles.textStyles} title="Decrement" onPress={() => {
-        changeCounter(counter-1);
+        changeCounter(counter-5);
       }} />
     </View>
   );

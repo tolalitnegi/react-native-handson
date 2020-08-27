@@ -4,6 +4,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 import ComponentsScreen from "./src/screens/ComponentsScreen";
 import CounterStateScreen from "./src/screens/CounterStateScreen";
 import FlatListScreen from "./src/screens/FlatListScreen";
+import ColorAdjusterScreen from "./src/screens/ColorAdjusterScreen";
 import ColorStateScreen from './src/screens/ColorStateScreen';
 
 const navigator = createStackNavigator(
@@ -11,6 +12,7 @@ const navigator = createStackNavigator(
     home: HomeScreen,
     components : ComponentsScreen,
     stateHooks : CounterStateScreen,
+    colorAdjuster: ColorAdjusterScreen,
     colors : ColorStateScreen,
     list : FlatListScreen 
   },

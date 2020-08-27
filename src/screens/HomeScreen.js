@@ -26,6 +26,9 @@ const HomeScreen = (props) => {
         <Button title="Color State Example" onPress={() => {
           props.navigation.navigate('colors');
         }} />
+        <Button title="Color Adjuster Example" onPress={() => {
+          props.navigation.navigate('colorAdjuster');
+        }} />
 
     </View>);
 
