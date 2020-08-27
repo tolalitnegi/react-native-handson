@@ -1,0 +1,4 @@
+node_modules
+.expo
+cache
+xcode-playground*
