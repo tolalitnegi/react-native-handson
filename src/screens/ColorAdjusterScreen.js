@@ -10,6 +10,8 @@ const ColorAdjusterScreen = () => {
 
   return (
     <View style={{ padding: 10 }}>
+      <Text style={{fontWeight: 'bold', paddingBottom: 20}}>Colors adjuster useState example , click buttons below to change RGB </Text>
+
       <ColorAdjusterButtons color="Red" handler={updateRed} currentColorValue={red}/>
       <ColorAdjusterButtons color="Green" handler={updateGreen} currentColorValue={green}/>
       <ColorAdjusterButtons color="Blue" handler={updateBlue} currentColorValue={blue}/>

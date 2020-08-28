@@ -7,6 +7,7 @@ const ColorStateScreen = () => {
 
   return (
     <View style={{ backgroundColor: "rgb(2,29,32)", padding: 10 }}>
+      <Text  style={{fontWeight: 'bold', paddingBottom: 20}}>Colors Random Example using FlatList and useState hook </Text>
 
       <Button title="Add Color" onPress={() => {
         newColorsArray([...colors, `rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`]);
