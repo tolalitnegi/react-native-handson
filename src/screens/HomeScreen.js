@@ -34,6 +34,16 @@ const HomeScreen = (props) => {
         props.navigation.navigate('colorsRedux');
       }} />
 
+      <Button title="TextInput Example" onPress={() => {
+        props.navigation.navigate('textInput');
+      }} />
+
+      <Button title="Layout Example" onPress={() => {
+        props.navigation.navigate('layout');
+      }} />
+
+
+
     </View>);
 
 };
